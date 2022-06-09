@@ -13,5 +13,9 @@ afterEach(async () => await db.clearDatabase());
 afterAll(async () => await db.closeDatabase());
 
 describe("Book", () => {
-  describe("updateBook", () => {});
+  describe("updateBook", () => {
+    it("should pass", () => {
+      expect(true).toBe(true);
+    });
+  });
 });

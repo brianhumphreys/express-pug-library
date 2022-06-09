@@ -57,6 +57,9 @@ perform validation and sanitization of request forms
 check test/db.js and test/validator.js for boiler plate.
 
 
+### Test endpoints
+`npm install supertest --save-dev`
+
 
 
 
